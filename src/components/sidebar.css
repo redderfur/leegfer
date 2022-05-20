@@ -1,0 +1,41 @@
+.sidebar {
+	font-size: 12px;
+	position: fixed;
+	top: 64px;
+	left: 0px;
+	margin: 0px;
+
+	height: calc(100vh - 64px);
+	width: 200px;
+
+	background-color: var(--bg-black);
+	color: var(--bg-white);
+
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar-info {
+	padding: 10px;
+	list-style-type: none;
+	margin-top: auto;
+}
+
+.sidebar-icon {
+	width: 20px;
+	text-align: center;
+}
+
+.sidebar-item {
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.sidebar-text {
+	padding-left: 5px;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
